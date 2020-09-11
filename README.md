@@ -48,6 +48,7 @@ Automatically describing the content of an image is one of the challenging probl
   
 ### Evaluation Metrics  
 Though we were able to generate the captions, but we were not sure whether the captions generated were correct and are learned as expected and since the data is huge, we cannot possibly show the results for each image. Evaluating the performance of the caption generated is significantly important. Thus, to find the average accuracy on the whole dataset, BLEU-1, BLEU-2, BLEU-3, and BLEU-4 (Bilingual Evaluation Understudy) are metrics we chose to evaluate the quality of the caption generated. Sentences are compared based on modified n-gram precision method for generating BLEU score [5] (modified n-gram precision = maximum number of times n-gram occurs in reference/ total number of n-grams in hypothesis) . For BLEU calculation, each occurrence of an n-gram in ground truth can account for only one occurrence in predicted . Currently, we got a BLEU-4 score achieved with 20 epochs is 11.4 without attention and 13.5 with attention. BLEU scores on test data are mentioned in the below table. 
+
 ![alt text](evaluation_metrics.JPG)
 
 ### Results
