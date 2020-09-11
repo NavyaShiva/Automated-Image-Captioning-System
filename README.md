@@ -23,8 +23,11 @@ Automatically describing the content of an image is one of the challenging probl
 * PyTorch
 
 ### Type of Data
-* Dataset consists of images and captions
-* Each input image has 5 captions
+* Dataset consists of 8092 images in JPEG format 
+* Each input image has 5 captions associated with it
+* Train : 6000
+* Dev   : 1000
+* Test  : 1000
 
 ### Data Pre-processing
 * Data preprocessing involves loading and resizing image data into (N × 3 × 224 × 224) dimension and normalizing pixel value to be within range [0, 1] with mean value of [0.440,  0.417, 0.384] and std of [0.286, 0.280, 0.290]
