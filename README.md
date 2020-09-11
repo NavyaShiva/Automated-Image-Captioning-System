@@ -60,10 +60,10 @@ Though we were able to generate the captions, but we were not sure whether the c
 We were able to develop an image captioning model and extended the architecture to use attention mechanism and achieved a BLEU-4 score of 13.5. There can be many improvements in this project, and we would like to continue working on it. Firstly, instead on greedy search we should have implemented beam search which would have given more optimal captions and overall better results. Also, we have used pre-trained ResNet-152 model by disabling the gradient. We could have fine-tuned it to get better results on this dataset and must have achieved a slightly higher BLEU4 score. Also, we could have tuned the hyperparameters more to get better results. Overall working on this project has helped us develop more interest in understanding the Deep Learning concepts and we would like to explore more on this project in future.
 
 ### References
-[1] Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron C. Courville, Ruslan Salakhutdinov, Richard S. Zemel, and Yoshua Bengio. Show, attend and tell: Neural image caption generation with visual attention. CoRR, abs/1502.03044, 2015
-[2] A. Karpathy and F. Li. Deep visual-semantic alignments for generating image descriptions. CoRR, abs/1412.2306, 2014.
-[3] Raimonda Staniut¯ e and Dmitrij Šešok . A Systematic Literature Review on Image Captioning, 2019.
-[4] Simao Herdade, Armin Kappeler, Kofi Boakye, Joao Soares. Image Captioning: Transforming Objects into Words, 2019.
-[5] Blaine Rister, Dieterich Lawson, Image Captioning with Attention.
-[6] Lakshminarasimhan Srinivasan1 , Dinesh Sreekanthan2 , Amutha A.L3. Image Captioning - A Deep Learning Approach, 2018.
-[7] Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu - BLEU: a Method for Automatic Evaluation of Machine Translation Kishore ,IBM T. J. Watson Research Center Yorktown Heights, NY 10598, USA
+* [1] Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron C. Courville, Ruslan Salakhutdinov, Richard S. Zemel, and Yoshua Bengio. Show, attend and tell: Neural image caption generation with visual attention. CoRR, abs/1502.03044, 2015
+* [2] A. Karpathy and F. Li. Deep visual-semantic alignments for generating image descriptions. CoRR, abs/1412.2306, 2014.
+* [3] Raimonda Staniut¯ e and Dmitrij Šešok . A Systematic Literature Review on Image Captioning, 2019.
+* [4] Simao Herdade, Armin Kappeler, Kofi Boakye, Joao Soares. Image Captioning: Transforming Objects into Words, 2019.
+* [5] Blaine Rister, Dieterich Lawson, Image Captioning with Attention.
+* [6] Lakshminarasimhan Srinivasan1 , Dinesh Sreekanthan2 , Amutha A.L3. Image Captioning - A Deep Learning Approach, 2018.
+* [7] Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu - BLEU: a Method for Automatic Evaluation of Machine Translation Kishore ,IBM T. J. Watson Research Center Yorktown Heights, NY 10598, USA
