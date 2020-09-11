@@ -26,11 +26,18 @@ Automatically describing the content of an image is one of the challenging probl
 ### Data Pre-processing
 * Data preprocessing involves loading and resizing image data into (N × 3 × 224 × 224) dimension and normalizing pixel value to be within range [0, 1] with mean value of [0.440,  0.417, 0.384] and std of [0.286, 0.280, 0.290]
 
-### Type of Data
-* Data Cleaning
-* Decoder bi-directional LSTM
-
 ### Approach
-* Data Cleaning
-* Decoder bi-directional LSTM
+* We pass the cleaned data of size (N × 3 × 224 × 224) to RESNET-152
+* We then pass the CNN output which has dimensions of size (2048 * 1 * 1) to RNN
+* For the decoder part, we first tokenized the words and converted to lower cases and then we had to convert all the words into indexes to get the word embeddings
+* We constructed a vocabulary of words which consists of frequent words in the training caption data along with which we added few special words like <start>, <end>, <pad>
+* We have also added the word <unk> where if the word is not present in the vocabulary it is represented as <unk>
+* In the LSTM part of the model, each word in the caption is passed to the model one by one along with the corresponding image
+* Initially, the image is passed into the model along with the first word and it is mapped to generate the corresponding second word.
+* This process is repeated until <end> is encountered it stops generating sentence and it marks the end of the caption
+* Two input arrays are passed into the model, one for passing features of image and the other one for passing text data in encoded format
+* The output of the model is the encoded next word of the sequence
+* Finally, when the model is used to generate descriptions for an image, the words generated in the previous sequence are concatenated and fed into the model to generate the next word
+  
+
 
