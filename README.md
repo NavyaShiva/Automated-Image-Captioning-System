@@ -43,4 +43,4 @@ Automatically describing the content of an image is one of the challenging probl
 * Finally, when the model is used to generate descriptions for an image, the words generated in the previous sequence are concatenated and fed into the model to generate the next word
   
 ### Steps Involved
-![alt text](image_capt_results.jpg)
+![alt text](image_capt_results.JPG)
