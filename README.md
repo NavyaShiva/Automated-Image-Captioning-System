@@ -20,7 +20,7 @@ Automatically describing the content of an image is one of the challenging probl
 * Build an Image Captioning system to generate relevant captions for any given input image.
 
 ### Data Source
-* Kaggle - Flickr8k dataset
+* https://academictorrents.com/details/9dea07ba660a722ae1008c4c8afdd303b6f6e53b
 
 ### Technologies
 * PyTorch
