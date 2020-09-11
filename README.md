@@ -13,4 +13,5 @@ Automatically describing the content of an image is one of the challenging probl
 * Kaggle
 
 ### Technologies
-* [PyTorch]
+* PyTorch
+
